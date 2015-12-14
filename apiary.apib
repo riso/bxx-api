@@ -37,15 +37,16 @@ HOST: http://apps.bxx.it/
 
     + Headers
     
-        Location: /activities/1
+            Location: /activities/1
 
 
-## Month activities [/activities/month/{month}]
+## Month activities [/activities/month/{month}{?userId}]
 
 ### Read Month Activities [GET]
 
 + Parameters
     + month: `Marzo-2015` - formatted as `MMMM-YYYY`
+    + userId: 1 (string, optional) - id of user
 
 + Response 200 (application/json)
         
